@@ -1,12 +1,5 @@
-variable "comp" {
-
-}
-variable "env" {
-
-}
-variable "prometheus_node" {
-  
-}
+variable "comp" {}
+variable "prometheus_node" {}
 variable "ssh_pwd" {}
 variable "vault_token" {}
 variable "env" {}

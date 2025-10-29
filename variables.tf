@@ -1,4 +1,4 @@
-variable "comp" {}
+variable "components" {}
 variable "prometheus_node" {}
 variable "ssh_pwd" {}
 variable "vault_token" {}

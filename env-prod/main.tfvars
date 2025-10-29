@@ -1,6 +1,5 @@
 env ="prod"
-
-comp = {
+components = {
 
     frontend = {
         name ="frontend"

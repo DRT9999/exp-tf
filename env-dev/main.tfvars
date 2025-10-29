@@ -1,6 +1,6 @@
 env = "dev"
 
-comp = {
+components = {
 
   frontend = {
 

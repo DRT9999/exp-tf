@@ -10,7 +10,7 @@ module "frontend" {
   vault_token     = var.vault_token
   prometheus_node = var.prometheus_node
   # zone_id         = data.aws_route53_zone.main.zone_id
-  ami             = data.aws_ami.main.image_id
+  ami             = "ami-03255eaab63f1ae4b"#data.aws_ami.main.image_id
 }
 
 
@@ -26,7 +26,7 @@ module "backend" {
   vault_token     = var.vault_token
   prometheus_node = var.prometheus_node
   # zone_id         = data.aws_route53_zone.main.zone_id
-  ami             = data.aws_ami.main.image_id
+  ami             = "ami-03255eaab63f1ae4b"#data.aws_ami.main.image_id
 }
 
 module "mysql" {
